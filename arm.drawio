@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-04-01T02:42:43.226Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" etag="05z1xuwpPGUdDI8ovS3C" version="12.9.6" type="github"><diagram id="ApKOz7Kp8ltRm8qARlsr" name="Page-1">1VXLboMwEPwajpGCnVJ6bPNqVfXEocfKhQ2gGJYaO5B+fU1sQ1AVqT2gKCfsmd31emaRPbos2q1gVfaGCXCPzJPWoyuPEH9OQ/3pkKNB7hYWSEWe2KABiPJvcJkWVXkC9ShQInKZV2MwxrKEWI4wJgQ247Ad8vGpFUvhFxDFjP9G3/NEZgYNyf2AP0OeZu5kP3gwTMFcsL1JnbEEmzOIrj26FIjSrIp2CbwTz+li8jYX2L4xAaX8S8LhZb8C9RrJMg0X2/2GfyiY2SoHxpW9sEcCrus97VCX1V3Lo5Ui+FLoiFl9MupRB/hh1Q6kXqXdl6OW8GRB4QrqzkxNE2FF6csTgapMoGvW13ST5RKiisUd2+jZ0lgmC25p2zYICe1FPfxeZT2egAVIcdQhNqE3xk4mdftm8Nl3WHbmcWAxZkcr7UsP6uuFNeAfZpCJzKhA1KDq3g5WdGqWn3Vlgm7CHnJ1e+hE9qCSIG7rX/GvbsZiIjNKaG7LCjqdE3o7PE8n7uyRp+sf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-04-01T02:47:36.456Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" etag="5ALAwFmqdZxDw6bwC9ba" version="12.9.6" type="github">
+  <diagram id="ApKOz7Kp8ltRm8qARlsr" name="Page-1">
+    <mxGraphModel dx="1865" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vIkDeuKStng84GkFl_ue-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;local arm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIkDeuKStng84GkFl_ue-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;perseus arm&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIkDeuKStng84GkFl_ue-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;outer arm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIkDeuKStng84GkFl_ue-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;new arm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYNd0scov9rdJRa5vVQd-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kYNd0scov9rdJRa5vVQd-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Gould Belt layer&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYNd0scov9rdJRa5vVQd-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Cam OB1 layer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kYNd0scov9rdJRa5vVQd-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="kYNd0scov9rdJRa5vVQd-5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;太阳系近邻旋臂&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="180" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
