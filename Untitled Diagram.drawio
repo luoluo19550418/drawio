@@ -1,35 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T03:44:28.460Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="2hkA8lRcgGvB_lhrvoL7" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T06:38:48.774Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Ttwv4FRcjw8HUA9Z-pXF" version="14.2.9" type="github">
   <diagram id="gddmTk9zShuUmkAov9sJ" name="Page-1">
     <mxGraphModel dx="840" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VhanhQAlaVrq_fSqDAiD-1" value="主波束效率修正&lt;br&gt;间隔矩阵修正&lt;br&gt;效率矩阵修正&lt;br&gt;位置修正&lt;br&gt;频率修正&lt;br&gt;坏数据剔除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="90" width="120" height="100" as="geometry" />
+        <mxCell id="VhanhQAlaVrq_fSqDAiD-1" value="位置修正&lt;br&gt;主波束效率修正&lt;br&gt;间隔矩阵修正&lt;br&gt;效率矩阵修正&lt;br&gt;频率修正&lt;br&gt;坏数据剔除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="139.5" y="80" as="sourcePoint" />
-            <mxPoint x="140" y="200" as="targetPoint" />
+            <mxPoint x="140" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-3" value="差beam数据剔除&lt;br&gt;重网格化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="300" width="120" height="100" as="geometry" />
+          <mxGeometry x="460" y="440" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-4" value="&lt;span&gt;OTF&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-5" value=".14m" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-6" value=".bur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="139.5" y="290" as="sourcePoint" />
-            <mxPoint x="139.5" y="410" as="targetPoint" />
+            <mxPoint x="130" y="420" as="sourcePoint" />
+            <mxPoint x="130" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VhanhQAlaVrq_fSqDAiD-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;天线位置修正：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、如果FFTS和调度机采样时间不同步差小于3S，通过扫描速度修正AZ、EL；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、用各波束每个采样点对应的AZ、EL、恒星时、儒略日及间隔矩阵计算其对应的实际天区位置；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、实际天区位置+中心坐标 ----------&amp;gt; 相对位置 offset&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="560" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
