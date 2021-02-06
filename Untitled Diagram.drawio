@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T06:38:48.774Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Ttwv4FRcjw8HUA9Z-pXF" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-06T06:39:34.427Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="2hrzDJHH50oEQbjxVACM" version="14.2.9" type="github">
   <diagram id="gddmTk9zShuUmkAov9sJ" name="Page-1">
     <mxGraphModel dx="840" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
             <mxPoint x="130" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VhanhQAlaVrq_fSqDAiD-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;天线位置修正：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、如果FFTS和调度机采样时间不同步差小于3S，通过扫描速度修正AZ、EL；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、用各波束每个采样点对应的AZ、EL、恒星时、儒略日及间隔矩阵计算其对应的实际天区位置；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、实际天区位置+中心坐标 ----------&amp;gt; 相对位置 offset&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VhanhQAlaVrq_fSqDAiD-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;天线位置修正：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1、如果FFTS和调度机采样时间不同步差小于3S，通过扫描速度修正AZ、EL；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2、用各波束每个采样点对应的AZ、EL、恒星时、儒略日及间隔矩阵计算其对应的实际天区位置；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3、实际天区位置 + 中心坐标 ----------&amp;gt; 相对位置 offset&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="100" width="560" height="90" as="geometry" />
         </mxCell>
       </root>
