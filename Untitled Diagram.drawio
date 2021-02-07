@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T08:34:08.427Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_EQ01o6juuyd2DT_Hx9x" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-07T08:50:13.928Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NEScTwU0MIzay7ZGEW0P" version="14.2.9" type="github">
   <diagram id="gddmTk9zShuUmkAov9sJ" name="Page-1">
-    <mxGraphModel dx="682" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="VhanhQAlaVrq_fSqDAiD-17" value="效率修正：效率矩阵和主波束效率（随俯仰变化）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="290" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VhanhQAlaVrq_fSqDAiD-20" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;坏数据剔除：坏数据包括谱线个别通道数据异常、谱线基线不平整、谱线上有干扰信号&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;1、由于接收机状态和天气情况等因素标记为删除的数据直接删除，不写到14m文件；&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;2、&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VhanhQAlaVrq_fSqDAiD-20" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;坏数据剔除：坏数据包括谱线个别通道数据异常、谱线基线不平整、谱线上有干扰信号&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;1、由于接收机状态和天气情况等因素标记为删除的数据直接删除，不写到14m文件；&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;2、其他因素的谱线全部写入文件，写入之前，对每一条谱线进行判断，符合剔除条件则在&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;文件中做标记；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="340" width="500" height="160" as="geometry" />
         </mxCell>
       </root>
