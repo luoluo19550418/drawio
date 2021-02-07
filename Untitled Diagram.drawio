@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T13:17:18.835Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="VUaUDhwf2aNEQDfIj6og" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-07T08:34:08.427Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_EQ01o6juuyd2DT_Hx9x" version="14.2.9" type="github">
   <diagram id="gddmTk9zShuUmkAov9sJ" name="Page-1">
-    <mxGraphModel dx="840" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="682" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,38 +10,38 @@
         <mxCell id="VhanhQAlaVrq_fSqDAiD-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="139.5" y="80" as="sourcePoint" />
-            <mxPoint x="140" y="510" as="targetPoint" />
+            <mxPoint x="140" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-3" value="差beam数据剔除&lt;br&gt;重网格化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="440" width="120" height="100" as="geometry" />
+          <mxGeometry x="470" y="970" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-4" value="&lt;span&gt;OTF&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-5" value=".14m" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-6" value=".bur" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="590" as="sourcePoint" />
-            <mxPoint x="330" y="710" as="targetPoint" />
+            <mxPoint x="130" y="1150" as="sourcePoint" />
+            <mxPoint x="130" y="1270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-8" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;天线位置修正：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;1、如果FFTS和调度机采样时间不同步差小于3S，通过扫描速度修正AZ、EL；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;2、用各波束每个采样点对应的AZ、EL、恒星时、儒略日及间隔矩阵计算其对应的实际天区位置；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;3、实际天区位置 + 中心坐标 ----------&amp;gt; 相对位置 offset&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
           <mxGeometry x="140" y="90" width="560" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="VhanhQAlaVrq_fSqDAiD-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VhanhQAlaVrq_fSqDAiD-15" target="VhanhQAlaVrq_fSqDAiD-17">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-15" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;频率修正：&lt;/span&gt;&lt;br&gt;&lt;span&gt;1、各个波束二级变频晶振存在偏差，通过频率定标方法确定各个波束晶振实际值，计算出频率偏差导致的速度偏移；&lt;/span&gt;&lt;br&gt;&lt;span&gt;2、OTF观测时只能每行设置一次本振频率，计算中心点的本振频率 Vtelescope，&lt;/span&gt;&lt;span&gt;各扫描点根据各自的&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;LST、RA、DEC 计算出对应的 Vtelescopei，&lt;/span&gt;&lt;span&gt;&amp;nbsp;Vtelescopei - Vtelescope 得到修真值。&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="140" y="190" width="630" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VhanhQAlaVrq_fSqDAiD-17" value="效率修正：效率矩阵和主波束效率（随俯仰变化）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="290" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VhanhQAlaVrq_fSqDAiD-20" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;坏数据剔除：坏数据包括谱线个别通道数据异常、谱线基线不平整、谱线上有干扰信号&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;1、由于接收机状态和天气情况等因素标记为删除的数据直接删除，不写到14m文件；&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;2、&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="500" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
