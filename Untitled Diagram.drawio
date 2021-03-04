@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T02:11:46.334Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="z-vkmtepom6rVSqTKQUR" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T02:15:59.489Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="lWhf45OX4zFp7rMS_8Oq" version="14.4.3" type="github">
   <diagram id="gddmTk9zShuUmkAov9sJ" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,8 @@
         <mxCell id="KhxXYTPJZ46rKF6jg37S-1" value="&lt;div&gt;&lt;span&gt;四、间隔矩阵修正&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="140" y="260" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KhxXYTPJZ46rKF6jg37S-2" value="六、重网格化" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="140" y="490" width="120" height="40" as="geometry" />
+        <mxCell id="KhxXYTPJZ46rKF6jg37S-2" value="六、Gridding处理" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
