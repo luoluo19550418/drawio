@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T08:37:45.193Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="gwXwUm6eQl3UPQrkCtWL" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T00:59:35.574Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="VuzrmMLjd6Q6WegZqphM" version="14.4.3" type="github">
   <diagram id="gddmTk9zShuUmkAov9sJ" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="VhanhQAlaVrq_fSqDAiD-17" value="三、效率修正：效率矩阵和主波束效率（随俯仰变化）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="270" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VhanhQAlaVrq_fSqDAiD-20" value="&lt;div&gt;&lt;span&gt;五、坏数据剔除：坏数据包括谱线个别通道数据异常、谱线基线不平整、谱线上有干扰信号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;（一）、由于接收机状态和天气情况等因素标记为删除的数据直接删除，不写到14m文件；&lt;/div&gt;&lt;div&gt;（二）、其他因素的谱线全部写入文件，写入之前，对每一条谱线进行判断，符合剔除条件则在&lt;span&gt;文件中做标记，剔除算法：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1、 剔除坏通道&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.1 固定通道替换&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.2 随机坏通道剔除&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="VhanhQAlaVrq_fSqDAiD-20" value="&lt;div&gt;&lt;span&gt;五、坏数据剔除：坏数据包括谱线个别通道数据异常、谱线基线不平整、谱线上有干扰信号&lt;/span&gt;&lt;/div&gt;&lt;div&gt;（一）、由于接收机状态和天气情况等因素标记为删除的数据直接删除，不写到14m文件；&lt;/div&gt;&lt;div&gt;（二）、其他因素的谱线全部写入文件，写入之前，对每一条谱线进行判断，符合剔除条件则在&lt;span&gt;文件中做标记，剔除算法：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;1、单个坏谱线剔除&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1.1、剔除坏通道：&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.1.1 固定通道替换；&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.1.2 随机坏通道剔除；&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.1.3&amp;nbsp;&lt;span&gt;经过上面 2 步坏通道剔除后，如果还有某个通道的值绝对值大&lt;/span&gt;&lt;span&gt;于 300K，坏通道累积计数加 1，然后标记谱线质量。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;1.2.、剔除基线差的谱线：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;1.3、剔除有干扰信号的谱线&lt;/div&gt;&lt;div&gt;2&amp;nbsp;某个 beam 的数据剔除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="140" y="350" width="660" height="160" as="geometry" />
         </mxCell>
         <mxCell id="KhxXYTPJZ46rKF6jg37S-1" value="&lt;div&gt;&lt;span&gt;四、间隔矩阵修正&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
