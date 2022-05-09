@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T11:19:19.531Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="z-j-pJPorWEtKC_KMzy6" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T11:19:57.788Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="TgsBiqEGyHiOhxF95uC2" version="18.0.2" type="github">
   <diagram id="9LFVirJZFVcQrRk2dpHQ" name="Page-1">
     <mxGraphModel dx="1038" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
             <mxPoint x="450.5" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mCy6L7Xg52RXN49dxGRW-31" value="&lt;div&gt;观测源和天空背景时序谱&lt;/div&gt;&lt;div&gt;减去平均后的校准黑体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="mCy6L7Xg52RXN49dxGRW-31" value="&lt;div&gt;sky 时序谱&lt;/div&gt;&lt;div&gt;减去平均后的黑体频谱&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="368.49" y="550" width="161" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mCy6L7Xg52RXN49dxGRW-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
