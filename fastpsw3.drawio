@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T11:45:42.265Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="KfVUE4TlB-t3qeK4RiNW" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T11:47:08.897Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="KGYWTWYsZUXvWATNWab_" version="18.0.2" type="github">
   <diagram id="9LFVirJZFVcQrRk2dpHQ" name="Page-1">
     <mxGraphModel dx="1038" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,8 +149,8 @@
             <mxPoint x="760" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mCy6L7Xg52RXN49dxGRW-43" value="&lt;br&gt;当数据标识符为：&lt;br&gt;1 或 6 时，数据是 Cal 黑体的；&lt;br&gt;2 或 5 时，数据是 On 观测源的；&lt;br&gt;3 或 4 时，数据是 Off 天空背景的。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80.68" y="329.38" width="290" height="130" as="geometry" />
+        <mxCell id="mCy6L7Xg52RXN49dxGRW-44" value="&lt;span style=&quot;&quot;&gt;当数据标识符为：&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;1 或 6 时，数据是 Cal 黑体的；&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2 或 5 时，数据是 On 观测源的；&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;3 或 4 时，数据是 Off 天空背景的。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="339.38" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
