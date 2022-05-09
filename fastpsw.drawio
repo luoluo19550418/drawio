@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T10:24:35.980Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="RW5GO7RBR1Im83DIp2zs" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T10:28:04.737Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="9Fe6POaqbbhwBXdj5OJM" version="18.0.2" type="github">
   <diagram id="MgASx6fL-OYSZcH9jjee" name="Page-1">
     <mxGraphModel dx="608" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,15 +38,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-8" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="290" width="30" height="20" as="geometry" />
+          <mxGeometry x="160" y="290" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-9" value="dat[1] == 1) or (dat[1] == 6" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="147.5" y="320" width="95" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="377" y="290" as="sourcePoint" />
-            <mxPoint x="377.5" y="330" as="targetPoint" />
+            <mxPoint x="399.5" y="390" as="sourcePoint" />
+            <mxPoint x="400" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -60,6 +60,24 @@
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-13" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ynC3lzafvBoeRt70oqiu-14" value="读取校准黑体数据，并进行中值滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ynC3lzafvBoeRt70oqiu-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ynC3lzafvBoeRt70oqiu-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194.5" y="410" as="sourcePoint" />
+            <mxPoint x="195" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynC3lzafvBoeRt70oqiu-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ynC3lzafvBoeRt70oqiu-18" value="读入sky数据，并进行中值滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
