@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T05:18:15.796Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="fNDwHM9dPGAwDn44RaGm" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T05:28:25.012Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="G6jTh84wKz18xcPfVqXJ" version="18.0.2" type="github">
   <diagram id="8ENY9Vlqv02V1D2wRroC" name="Page-1">
     <mxGraphModel dx="1038" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,56 +7,17 @@
         <mxCell id="-UX3ezDkACqCfWSgYkCA-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="40" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="429.5" y="90" as="sourcePoint" />
-            <mxPoint x="430" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-UX3ezDkACqCfWSgYkCA-4" value="输入校准黑体、观测源和天空背景的时序谱" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="295" y="140" width="270" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="429.5" y="190" as="sourcePoint" />
-            <mxPoint x="430" y="250" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="-UX3ezDkACqCfWSgYkCA-6" value="对输入数据进行中值滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="250" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-7" value="&lt;div&gt;obtained a&lt;/div&gt;&lt;div&gt;dimensionless matrix, X&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="730" width="120" height="60" as="geometry" />
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-7" value="&lt;div&gt;观测源和天空背景时序谱减去平均后的校准黑体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-UX3ezDkACqCfWSgYkCA-8" value="GoDec算法+&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;自定义稀疏识别&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="900" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-9" value="平均校准黑体时序谱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="360" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="429.5" y="300" as="sourcePoint" />
-            <mxPoint x="430" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="414" y="620" as="sourcePoint" />
-            <mxPoint x="414" y="730" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="409.5" y="790" as="sourcePoint" />
-            <mxPoint x="409.5" y="900" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-UX3ezDkACqCfWSgYkCA-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="409.5" y="960" as="sourcePoint" />
-            <mxPoint x="409.5" y="1070" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="340" y="610" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-UX3ezDkACqCfWSgYkCA-14" value="输出S、L" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1070" width="120" height="60" as="geometry" />
@@ -78,6 +39,51 @@
         </mxCell>
         <mxCell id="-UX3ezDkACqCfWSgYkCA-18" value="&lt;div&gt;&amp;nbsp;time-integrated them to obtain an integrated spectrum of&lt;/div&gt;&lt;div&gt;the target.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="353" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-19" value="(error &amp;lt;= tol) or (iter &amp;gt;= max_iter)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.5" y="90" as="sourcePoint" />
+            <mxPoint x="430" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.5" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.5" y="310" as="sourcePoint" />
+            <mxPoint x="430" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.5" y="430" as="sourcePoint" />
+            <mxPoint x="430" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="639.5" as="sourcePoint" />
+            <mxPoint x="680" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UX3ezDkACqCfWSgYkCA-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
