@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T10:44:53.273Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="GlR-F-QeiTNmM6MoElwZ" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T10:47:19.687Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ManhxHugAjj58hyIRIs_" version="18.0.2" type="github">
   <diagram id="MgASx6fL-OYSZcH9jjee" name="Page-1">
     <mxGraphModel dx="1038" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ynC3lzafvBoeRt70oqiu-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="414" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -13,7 +13,7 @@
             <mxPoint x="449" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-3" value="读入原始数据 dat 文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-3" value="读入原始数据 dat 文件" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="370.68" y="80" width="156.63" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -22,7 +22,7 @@
             <mxPoint x="449" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-5" value="文件是否读完？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-5" value="文件是否读完？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="394.75" y="150" width="108.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -33,15 +33,15 @@
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="299.5" as="sourcePoint" />
-            <mxPoint x="607.5" y="300" as="targetPoint" />
+            <mxPoint x="519" y="294.5" as="sourcePoint" />
+            <mxPoint x="606.5" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-8" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="220" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-9" value="数据标识是否为1&lt;br&gt;或者6&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="389.75" y="260" width="130.25" height="80" as="geometry" />
+        <mxCell id="ynC3lzafvBoeRt70oqiu-9" value="数据标识符是否&lt;br&gt;为1或者6&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="379" y="260" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -50,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340.68" y="160" width="30" height="20" as="geometry" />
+          <mxGeometry x="359.75" y="160" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -59,22 +59,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-13" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="280" width="30" height="20" as="geometry" />
+          <mxGeometry x="519" y="270" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-14" value="读取校准黑体数据，并进行中值滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-14" value="读取校准黑体数据，并进行中值滤波" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="454.38" y="340" as="sourcePoint" />
-            <mxPoint x="454.88" y="380" as="targetPoint" />
+            <mxPoint x="449" y="330" as="sourcePoint" />
+            <mxPoint x="449.5" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="430" y="340" width="30" height="20" as="geometry" />
+          <mxGeometry x="420" y="330" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-18" value="读入sky数据，并进行中值滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="394.88" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="ynC3lzafvBoeRt70oqiu-18" value="读入sky数据，并进行中值滤波" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="389" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -82,10 +82,10 @@
             <mxPoint x="240" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-20" value="GoDec算法+&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;自定义稀疏识别&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-20" value="GoDec算法+&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Hiragino Sans GB W3&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 13px; text-align: start;&quot;&gt;自定义稀疏识别&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="150" y="250" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-22" value="&lt;div style=&quot;&quot;&gt;用稀疏矩阵S估算&lt;/div&gt;&lt;div style=&quot;&quot;&gt;天文信号的时序谱，并做平均&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-22" value="&lt;div style=&quot;&quot;&gt;用稀疏矩阵S估算&lt;/div&gt;&lt;div style=&quot;&quot;&gt;天文信号的时序谱，并做平均&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="180" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -106,13 +106,13 @@
             <mxPoint x="669.5" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-27" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-27" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="180" y="544.5" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-28" value="&lt;span style=&quot;&quot;&gt;写出fits文件&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-28" value="&lt;span style=&quot;&quot;&gt;写出fits文件&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="170" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-31" value="&lt;div&gt;观测源和天空背景时序谱&lt;/div&gt;&lt;div&gt;减去平均后的校准黑体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-31" value="&lt;div&gt;观测源和天空背景时序谱&lt;/div&gt;&lt;div&gt;减去平均后的校准黑体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="160" width="145" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -121,7 +121,7 @@
             <mxPoint x="240.5" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ynC3lzafvBoeRt70oqiu-33" value="读取头文件信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynC3lzafvBoeRt70oqiu-33" value="读取头文件信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynC3lzafvBoeRt70oqiu-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ynC3lzafvBoeRt70oqiu-5">
